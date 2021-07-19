@@ -32,7 +32,7 @@ $auditSize: 333px;
 }
 
 #mainPanel{
-	color: $main_color;
+	color: green;
 	min-height: 750px;
 }
 
@@ -79,7 +79,7 @@ $auditSize: 333px;
 	top: 60px;
 	width: 100%;
 	right: 0;
-	background:$hi_color2;
+	background:red;
 	z-index: 2;
 	text-align: center;
 	padding-bottom:2px;
@@ -91,19 +91,19 @@ $auditSize: 333px;
 }
 .notificationWrap{
 	width: 97%;
-	background: $acc_color2;
+	background: black;
 	margin: 0 auto;
 	padding: 5px;
 	border-radius: 2px;
-	border-left: 5px $hi_color3 solid;	//success color
+	border-left: 5px white solid;	//success color
 	color: $acc_color3;
 	font-size: 14px;
 	display: inline-block;
 	text-align: left;
-	margin-top:2px;
+	margin-top:9px;
 }
 #notificationHandle{
-	background: $hi_color2;
+	background: red;
 	width: 100px;
 	display:inline-block;
 	height: 15px;
@@ -162,7 +162,7 @@ $auditSize: 333px;
 	margin-left: 10px;
 	margin-right: 10px;
 	vertical-align: top;
-	background: $acc_color1-5;
+	background: darkgray;
 }
 .innerMarbleWrap{
 	min-height:100px;
@@ -173,6 +173,7 @@ $auditSize: 333px;
 	z-index: 1;
 	font-size:30px;
 	padding-top: 10px;
+	padding-bottom: 20px;
 }
 .legend {
 	padding-left: 10px;
@@ -193,7 +194,7 @@ $auditSize: 333px;
 	padding: 20px;
 }
 .companyNameWrap{
-	border-bottom: 1px $acc_color1-5 solid;
+	border-bottom: 1px white solid;
 	padding: 16px;
 }
 .companyName{
@@ -236,7 +237,7 @@ $auditSize: 333px;
 #trashbin{
 	text-align: center;
 	padding: 5px 50px;
-	border: 1px $acc_color2 dashed;
+	border: 1px green dashed;
 	border-radius:3px;
 	vertical-align: top;
 	position: absolute;
@@ -258,9 +259,9 @@ $auditSize: 333px;
 	vertical-align: top;
 	display: inline-block;
 	margin-left: 10px;
-	color: $main_color;
+	color: green;
 	font-weight: 100;
-	font-size: 12px;
+	font-size: 17px;
 }
 .marblesFix, .disableOwner{
 	padding: 2px;
@@ -371,7 +372,7 @@ $auditSize: 333px;
 	border-top:25px $acc_color1 solid;
 }
 .myCompany{
-	background: #545658;
+	background: none;
 	border-top-left-radius: 3px;
 	border-top-right-radius: 3px;
 }
@@ -800,19 +801,19 @@ $marble_left: 0;
 	right:20px;
 	z-index:3;
 	top:0;
-	color: $acc_color1;
+	color: white;
 	cursor: pointer;
 	font-size: 13px;
 	transition: background-color 0.3s ease;
 	padding: 0 15px;
 }
 #userIcon{
-	background:$acc_color2;
+	background:red;
 	padding:8px;
 	border-radius:20px;
 	width:20px;
 	text-align: center;
-	color: $acc_color3;
+	color: black;
 	margin-right:10px;
 	font-size:20px;
 }

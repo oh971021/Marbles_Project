@@ -8,7 +8,7 @@ body{margin:0 auto;
 	text-align:left;
 	height:100%;
 	color:gray;
-	background: $main_bg;
+	background: ivory;
 	min-width: 745px;
 }
 h1{font-size:30px; font-weight:normal; margin:0;}
@@ -47,8 +47,8 @@ input[type="submit"],input[type="button"], button, button:disabled:hover{
 	font-size:13px;
 	cursor:pointer;
 	padding:5px 10px;
-	background: $hi_color2;
-	color: $main_color;
+	background: red;
+	color: white;
 	transition:background-color 0.2s ease;
 	border-radius:3px;
 	min-width:130px;
