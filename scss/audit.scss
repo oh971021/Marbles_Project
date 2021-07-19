@@ -3,15 +3,15 @@ $left_width: 175px;
 #auditWrap {
 	position: absolute;
 	width: 100%;
-	background: $acc_color2;
-	color: $main_color;
+	background: black;
+	color: white;
 	height: 100%;
 }
 #auditLegend{
-	color: $acc_color3;
+	color: green;
 	padding: 20px 0 15px 0;
 	bottom: 13px;
-	font-size: 18px;
+	font-size: 20px;
 }
 #auditContentWrap{
 	display: none;
@@ -92,9 +92,9 @@ $left_width: 175px;
 
 .auditHint{
 	font-size: 20px;
-	font-weight: 100;
-	color: #a1a7ad;
-	margin-top: 55px;
+	font-weight: 400;
+	color: green;
+	margin-top: 100px;
 	text-align: center;
 }
 
@@ -119,8 +119,8 @@ $left_width: 175px;
 #auditButton{
 	position: fixed;
 	left: -22px;
-	background: $acc_color2;
-	color: $main_color;
+	background: red;
+	color: white;
 	transform: rotate(90deg);
 	padding: 5px 20px;
 	top:50%;

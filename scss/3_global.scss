@@ -124,8 +124,9 @@ $auditSize: 333px;
 	color: $acc_color3;
 }
 #tips{
-	font-size: 13px;
+	font-size: 20px;
 	margin-bottom: 35px;
+	text-align: center;
 }
 .closeNotification:hover{
 	color: $err_color;
@@ -153,8 +154,8 @@ $auditSize: 333px;
 .marblesWrap{
 	display: inline-block;
 	min-width: 235px;
-	text-align: left;
-	color: $main_color;
+	text-align: center;
+	color: green;
 	margin-bottom: 15px;
 	position: relative;
 	min-height: 158px;
@@ -162,11 +163,12 @@ $auditSize: 333px;
 	margin-left: 10px;
 	margin-right: 10px;
 	vertical-align: top;
-	background: darkgray;
+	background: none;
+	border:1px green dashed;
 }
 .innerMarbleWrap{
 	min-height:100px;
-	padding-right: 10px;
+	padding: 10px;
 }
 .legend{
 	display:absolute;
@@ -181,11 +183,11 @@ $auditSize: 333px;
 	margin: 0;
 }
 .companyPanel{
-	background: $acc_color2;
+	background: none;
 	padding: 0;
 	border-radius: 3px;
 	margin-bottom: 5px;
-	color: $main_color;
+	color: green;
 }
 .floatRight{
 	float: right;
@@ -194,7 +196,7 @@ $auditSize: 333px;
 	padding: 20px;
 }
 .companyNameWrap{
-	border-bottom: 1px white solid;
+	border-bottom: 4px green solid;
 	padding: 16px;
 }
 .companyName{
@@ -209,14 +211,14 @@ $auditSize: 333px;
 }
 .smallMarble{
 	height: 40px;
-	width: 40px;
+	width: 20px;
 }
 .ball{
 	display:inline-block;
 	border:2px transparent solid;
 	padding:0;
 	vertical-align: bottom;
-	border-radius: 1000px;
+	border-radius:0px;
 }
 .ball:hover{
 	cursor: pointer;
@@ -294,8 +296,8 @@ $auditSize: 333px;
 	margin-left: 10px;
 	font-size: 20px;
 	vertical-align: bottom;
-	border: 1px dashed $acc_color2;
-	border-radius: 100%;
+	border: 1px dashed green;
+	border-radius: 0;
 	text-align: center;
 }
 .addMarble:hover{
@@ -304,12 +306,12 @@ $auditSize: 333px;
 	transition: all .25s linear;
 }
 .addMarble, .ball{
-	margin: 5px 0 5px 8px;
+	margin: 8px;
 }
 .addMarble, .largeMarble{
-	height: 75px;
-	width: 75px;
-	line-height: 75px;
+	height: 80px;
+	width: 20px;
+	line-height: 85px;
 }
 .createball{
 	display: inline-block;
@@ -447,7 +449,7 @@ $auditSize: 333px;
 }
 
 #triangle{
-	border: 10px solid $acc_color3;
+	border: 10px solid white;
 	border-top-color: transparent;
 	border-left-color: transparent;
 	border-right-color: transparent;
@@ -820,15 +822,15 @@ $marble_left: 0;
 #userSelect{
 	display:none;
 	position: absolute;
-	top: 72px;
+	top: 77px;
 	right: -10px;
 	z-index:2;
-	color: $acc_color2;
-	background: $acc_color3;
+	color: black;
+	background: white;
 	border-radius: 10px;
 	width: 140px;
 	text-align: center;
-	font-size: 11px;
+	font-size: 16px;
 	font-weight: bold;
 }
 .userLine{

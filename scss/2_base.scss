@@ -8,7 +8,7 @@ body{margin:0 auto;
 	text-align:left;
 	height:100%;
 	color:gray;
-	background: ivory;
+	background: black;
 	min-width: 745px;
 }
 h1{font-size:30px; font-weight:normal; margin:0;}
@@ -47,14 +47,15 @@ input[type="submit"],input[type="button"], button, button:disabled:hover{
 	font-size:13px;
 	cursor:pointer;
 	padding:5px 10px;
-	background: red;
-	color: white;
+	background: none;
+	color: green;
 	transition:background-color 0.2s ease;
 	border-radius:3px;
 	min-width:130px;
 	//box-shadow: -1px 4px 2px -2px rgba(0,0,0,0.75);
 	border: 2px transparent solid;
 	transition: all .2s linear;
+	border: 1px green dashed;
 }
 button:disabled:hover{
 	cursor: not-allowed;
