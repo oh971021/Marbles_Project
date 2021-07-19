@@ -2,11 +2,12 @@
     "cred_filename": "connection_profile_tls.json",
     "use_events": true,
     "keep_alive_secs": 120,
-    "company": "United Marbles",
-    "usernames": [
-        "amy",
-        "alice",
-        "ava"
-    ],
+	"company": "Kosk Marbles Demo",
+	"usernames": [
+		"준석",
+		"종현",
+		"태웅",
+		"혜수"
+	],
     "port": 3001
 }
